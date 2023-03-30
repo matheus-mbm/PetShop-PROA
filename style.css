@@ -1,0 +1,217 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400&display=swap');
+
+header{
+    background-color: #004AAD;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    text-align: center;
+}
+
+
+.logo{
+    width: 150px;
+}
+
+
+.nav_links{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 0.6rem;
+    margin-right: 2rem;
+}
+
+.nav_links li{
+    padding: 0.3rem;
+    margin-left: 1rem;
+    text-align: center;
+}
+
+.nav_links li:hover{
+    border-bottom: 2px solid #4169E1;
+}
+
+.nav_links a{
+    text-decoration: none;
+    color: #ffff;
+}
+
+.tela_prin{
+    display: flex;
+    color: #000;
+    height: 50vh;
+    justify-content: space-around;
+    
+}
+
+.text_prin{
+    display: flex;
+    flex-direction: column;
+}
+
+.text_prin p{
+    height: 50vh;
+    margin-left: 50px;
+    font-size: 20px;
+    display: flex;
+    border: solid blue;
+}
+
+.tela_prin img{
+    height: 200px;
+    border: solid red;
+}
+
+.caixa1 h1{
+    margin-top: 2rem;
+    text-align: center;
+    font-size: 70px
+}
+
+p{
+    text-align: center;
+    margin: 1rem 0rem;
+}
+
+.caixa2 h2{
+    margin-top: 3rem;
+    text-align: center;
+}
+
+.equipe{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+}
+
+.card{
+    margin: 1rem;
+    max-width: 50%;
+}
+
+.carousel-item{
+    display: flex;
+    width: 100%;
+}
+
+.carousel-item img{
+    display: block;
+    margin: 0 auto;
+    max-width: 50%;
+}
+
+.produtos{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+}
+
+.texto{
+    margin-top: 2rem;
+    text-align: center;
+}
+
+footer{
+    background-color: #004AAD ;
+    margin-top: 3rem;
+    padding: 2%;
+    color: #fff;
+}
+
+footer li{
+    list-style: none;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.info{
+    width: 60%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #ADD8E6;
+    border-radius: 3%;
+    margin: 3rem 17rem;
+}
+
+.info input{
+    width: 50%;
+    height: 2.5rem;
+    outline: none;
+}
+
+.info label{
+   padding: 0.3rem;
+}
+
+input::placeholder{
+    padding-left: 0.3rem;
+}
+
+
+.info select{
+    width: 50%;
+    height: 2rem;
+}
+
+.info textarea{
+    width: 50%;
+    height: 4rem;
+}
+
+.buttom{
+    background-color: #004AAD;
+    width: 50%;
+    height: 3rem;
+    color: aliceblue;
+    margin: 2rem 0rem;
+}
+
+
+.adocao{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.adocao img{
+    margin-top: 1.5rem;
+    width: 8rem;
+}
+
+.contatos{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.contatos p{
+    margin-top: 1rem;
+}
+
+.contatos input{
+    margin-top: 1rem;
+    background-color: #004AAD;
+    color: #fff;
+    height: 3rem;
+    width: 35%;
+    
+}
+
+
+
+
+
+
+

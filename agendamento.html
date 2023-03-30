@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="reset.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp" crossorigin="anonymous">
+    <link rel="shortcut icon" href="./icone/pegada.png" type="image/x-icon">
+    <title>Agendamento</title>
+</head>
+
+<body>
+    <header>
+        <img class="logo" src="./imagens/Logo Petshop Ilustrado Branco.png" alt="">
+        <ul class="nav_links">
+            <li><a href="./index.html">HOME</a></li>
+            <li><a href="./loja.html">LOJA</a></li>
+            <li><a href="./contato.html">CONTATO</a></li>
+            <li><a href="./adocao.html">ADOÇÃO</a></li>
+        </ul>
+    </header>
+    <div class="container">
+        <form action="#">
+            <div class="info">
+                <label for="name">Nome:</label>
+                <input type="text" id="name" name="name" placeholder="Seu nome aqui:" required>
+                <br>
+                <label for="email">email:</label>
+                <input type="email" id="email" name="email" minlength="5" maxlength="11" placeholder="Seu email aqui:">
+                <br>
+                <label for="numero">Número:</label>
+                <input type="number" id="numero" name="numero" placeholder="Seu numero aqui:">
+                <br>
+                <label for="endereço">Endereço:</label>
+                <input type="text" id="endereco" name="endereco" placeholder="Seu endereço aqui:">
+
+                <p>Qual é o pet que irá para o atendimento? :</p>
+                <select name="" id="">
+                    <option value="">Selecione</option>
+                    <option value="">Cachorro</option>
+                    <option value="">Gato</option>
+                    <option value="">Aves</option>
+                    <option value="">Roedores</option>
+                    <option value="">Repteis</option>
+                    <option value="">Peixes</option>
+                </select>
+
+                <p>Qual seria o serviço?</p>
+                <select name="" id="">
+                    <option value="">Selecione</option>
+                    <option value="">Banho</option>
+                    <option value="">Tosa</option>
+                    <option value="">Veterinário</option>
+                    <option value="">Castração</option>
+                </select>
+                <hr>
+
+
+                <label for="mensagem">Diga um pouco sobre o serviço desejado:</label>
+                <textarea id="mensagem" name="mensagem"></textarea>
+
+
+                <label for="unidade">Em qual unidade gostaria de agendar?:</label>
+                <select name="unidade" id="unidade">
+                    <option value="uni1">Unidade x</option>
+                    <option value="uni2">Unidade y</option>
+                    <option value="uni3">Unidade z</option>
+                </select>
+                <br>
+                <label for="meeting-time">Escolha o dia e horário para agendamento:</label>
+                <input type="datetime-local" id="meeting-time" name="meeting-time" value="2023-01-01T12:00"
+                    min="2023-01-01T00:00" max="2030-12-01T00:00">
+                <input type="submit" value="Enviar" class="buttom">
+            </div>
+
+        </form>
+    </div>
+    <footer>
+        <ul>
+            <li>Contato: (xx)xxxx-xxxxx</li>
+            <li>Instagram @xxxxxxxx</li>
+            <li>Facebook: xxxxxxxxx</li>
+            <li>Email: xxxxxxxx@gmail.com</li>
+        </ul>
+    </footer>
+</body>
+
+</html>
